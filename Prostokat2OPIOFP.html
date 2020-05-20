@@ -1,0 +1,15 @@
+<script>
+var a=prompt("Podaj bok a");
+var b=prompt("Podaj bok b");
+if( a<=0 || b<=0 ){
+document.write (" a i b musi byc dodatnie ")
+}
+else if ((isNaN(a)) || (isNaN(b))){
+document.write("musza byc liczby ,a nie litery")
+}
+else{ 
+var obwod=2*a+2*b;
+var pole=a*b;
+document.write (" pole = "+pole+"<br> obwod="+obwod) 
+}
+</script>

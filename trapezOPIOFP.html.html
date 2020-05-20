@@ -1,0 +1,19 @@
+<script>
+var a=prompt("wpisz bok a");
+var b=prompt("wpisz bok b");
+var h=prompt("wpisz wysokosc");
+var c=prompt("wpisz bok c");
+var d=prompt("wpisz bok d");
+if(a<=0 || b<=0 || h<=0 || c<=0 || d<=0){
+document.write(" a,b,h,c i d musi byc dodatni ")
+}
+else if ((isNaN(a)) || (isNaN(b)) || (isNaN(h)) || (isNaN(c)) || (isNaN(d))){
+document.write("trzeba wpisac liczbe , a nie litere")
+}
+else{
+var pole=((a+b)*h)/2;
+var obwod=(2*a+2*b+2*c+2*d)/2;
+document.write (" pole ="+pole+" <br>obwod ="+obwod)
+}
+
+</script>

@@ -1,0 +1,17 @@
+<script>
+var a=prompt("wpisz bok a");
+var b=prompt("wpisz bok b");
+var h=prompt("wpisz wysokosc h");
+if(a<=0 || b<=0 || h<=0){
+document.write (" liczby a i b i h musza byc dodatnie ")
+}
+else if((isNaN(a)) || (isNaN(b)) || (isNaN(h))){
+document.write("trzeba wpisac liczbe , a nie litere")
+}
+else{
+var pole=a*h;
+var obwod=2*a+2*b;
+document.write (" pole="+pole+ 
+" <br>obwod ="+obwod)
+}
+</script>

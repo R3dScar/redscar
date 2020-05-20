@@ -1,0 +1,14 @@
+<script>
+var r=prompt(" Podaj dlugosc promienia ");
+if(r<=0){
+document.write("liczba musi byc musi byc dodatnia")
+}
+else if(isNaN(r)){
+document.write("trzeba napisac liczbe, a nie litere")
+}
+else{
+var pole=3.14*r*r;
+var obwod=2*3.14*r;
+document.write(" Pole= "+pole+"<br> obwod= "+obwod)
+}
+</script>
